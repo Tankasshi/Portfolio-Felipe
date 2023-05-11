@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_tela_inicial.css">
+    
+    <title>Portfolio | Felipe Rodrigues</title>
+    <link rel="icon" href="img/logo_nav_bar.png">
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <!--BARRA DE NAVEGAÇÃO-->
+    <header>
+        <a class="logo-nav-bar">
+            <img src="img/logo_nav_bar.png" alt="logo">
+            <span>MEU PORTFÓLIO</span>
+        </a>
+        <ul class="nav-bar">
+            <li class="nav-item1"><a href="index.html">Inicio</a></li>
+            <li class="nav-item2"><a href="html/index_tela_sobre_mim.html">Sobre mim</a></li>
+            <li class="nav-item3"><a href="html/index_tela_projetos.html">Projetos</a></li>
+            <li class="nav-item4"><a href="html/index_tela_conhecimentos.html">Conhecimentos</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <script type="text/javascript" src="js/script_tela_inicial.js"></script>
+    </header>
+
+    <!--CONTEUDO PRINCIPAL PARA APRESENTAÇÃO-->
+<section>
+    <div class="apresentação">
+        <div class="texto-principal" id="apresentar">
+            <h3>Olá, eu sou</h3>
+            <h1>Felipe Rodrigues.</h1>
+            <h3>Desenvolvedor <span class="texto-multiplo"></span></h1>
+
+                <div class="botaoLinkedin">
+                    <a href="https://www.linkedin.com/in/felipe-rodrigues-dos-santos-51340a208/" target="_blank">LinkedIn</a>
+                </div>
+        </div>
+        <div class="imagem-apresentativa">
+            <img src="img/icon_apresentação.png" alt="my-image">
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script type="text/javascript" src="js/script_apresentacao.js"></script>
+    </div>
+</section>
+
+<div id="contato">
+    <div class="container">
+        <div class="row">
+            <div class="container-esquerdo">
+                <h1>Entre em contato comigo</h1>
+                <p style="--i:1;"><i class='bx bx-paper-plane'></i> feliperodrigues76@outlook.com</p>
+                <p style="--i:2;"><i class='bx bxs-phone'></i> (31) 97533-8549</p>
+                <div class="social-icons">
+                    <a style="--i:1;" href="https://www.instagram.com/_tankasshi_/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    <a style="--i:2;" href="https://api.whatsapp.com/send?phone=5531975338549&text=Curtiu%20meu%20curr%C3%ADculo?%20S%C3%B3%20me%20mandar%20mensagem!!" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                    <a style="--i:3;" href="https://twitter.com/tankasshi" target="_blank"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+            <div class="container-direito">
+                <form action="https://formsubmit.co/feliperodrigues76@outlook.com" method="POST" target="_blank">
+                    <input style="--i:1;" type="text" name="nome" placeholder="Seu nome:" required>
+                    <input style="--i:2;" type="email" name="email" placeholder="Seu email:" required>
+                    <textarea style="--i:3;" name="mensagem" rows="6" placeholder="Sua mensagem..."></textarea>
+                    <button style="--i:4;" type="submit" class="botao" target="_blank">Enviar</button>
+                   
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Felipe Rodrigues. Feito unicamente por ele <i class='bx bx-wink-smile' ></i></p>
+    </div>
+</div>
+    <script src="js/script_relevar_scroll.js"></script>
+</body>
+
+</html>
